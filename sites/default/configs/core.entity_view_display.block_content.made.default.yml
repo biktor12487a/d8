@@ -1,0 +1,21 @@
+uuid: a943a747-bcf6-4e4b-ab51-fd756bc2da5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.made
+    - field.field.block_content.made.body
+  module:
+    - text
+id: block_content.made.default
+targetEntityType: block_content
+bundle: made
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

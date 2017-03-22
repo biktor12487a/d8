@@ -1,0 +1,24 @@
+uuid: 82d30c7f-e70a-4016-b0ba-1f2693f832e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_with_pdf
+    - field.field.block_content.block_with_pdf.body
+    - field.field.block_content.block_with_pdf.field_pdf
+  module:
+    - file
+id: block_content.block_with_pdf.default
+targetEntityType: block_content
+bundle: block_with_pdf
+mode: default
+content:
+  field_pdf:
+    type: file_generic
+    weight: 4
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+hidden:
+  body: true
+  info: true

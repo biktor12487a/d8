@@ -1,0 +1,25 @@
+uuid: fdd0f023-7e94-4fd6-afca-c2e65c967341
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:block_with_pdf:ced38205-4b15-40e7-956f-55fe69aafcad'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: blockwithpdf_2
+theme: bartik
+region: '-1'
+weight: -10
+provider: null
+plugin: 'block_content:ced38205-4b15-40e7-956f-55fe69aafcad'
+settings:
+  id: 'block_content:ced38205-4b15-40e7-956f-55fe69aafcad'
+  label: 'Block with PDF '
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

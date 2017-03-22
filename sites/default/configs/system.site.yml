@@ -1,0 +1,14 @@
+uuid: dd18da89-49a1-472b-a7ed-410f8d6e5fe3
+name: 'Drupla Lesson'
+mail: biktor12487@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

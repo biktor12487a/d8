@@ -1,0 +1,24 @@
+uuid: 7348e586-e0a8-46d0-b930-e57852827609
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.picture
+    - field.field.block_content.picture.field_img
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.picture.default
+targetEntityType: block_content
+bundle: picture
+mode: default
+content:
+  field_img:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+hidden:
+  info: true
