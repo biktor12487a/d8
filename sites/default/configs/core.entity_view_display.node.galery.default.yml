@@ -1,0 +1,34 @@
+uuid: b176e03e-e227-4f33-a6ed-3237f7855c30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.galery.field_desc
+    - field.field.node.galery.field_img
+    - image.style.large
+    - node.type.galery
+  module:
+    - image
+    - user
+id: node.galery.default
+targetEntityType: node
+bundle: galery
+mode: default
+content:
+  field_desc:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_img:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  links: true

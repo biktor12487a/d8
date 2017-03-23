@@ -1,0 +1,30 @@
+uuid: 7afa7f20-fbda-4539-bf8b-8baeaeee9c24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_img_colection
+    - field_collection.field_collection.field_img_colection
+    - node.type.news
+  module:
+    - field_collection
+id: node.news.field_img_colection
+field_name: field_img_colection
+entity_type: node
+bundle: news
+label: img_colection
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:field_collection_item'
+  handler_settings:
+    target_bundles:
+      field_img_colection: field_img_colection
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: field_collection

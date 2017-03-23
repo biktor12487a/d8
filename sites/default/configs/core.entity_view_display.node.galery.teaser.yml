@@ -1,0 +1,17 @@
+uuid: 8beaaa36-bbb3-463c-857d-58e21c965fd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.galery
+  module:
+    - user
+id: node.galery.teaser
+targetEntityType: node
+bundle: galery
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden: {  }

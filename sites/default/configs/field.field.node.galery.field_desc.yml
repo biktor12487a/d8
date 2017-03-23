@@ -1,0 +1,19 @@
+uuid: ca5a4fe3-bdad-4a43-b502-3203b961e0fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_desc
+    - node.type.galery
+id: node.galery.field_desc
+field_name: field_desc
+entity_type: node
+bundle: galery
+label: desc
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

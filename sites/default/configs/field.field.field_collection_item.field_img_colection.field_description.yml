@@ -1,0 +1,22 @@
+uuid: 27eaeb59-7d70-41ed-9230-6a0c332c5890
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_description
+    - field_collection.field_collection.field_img_colection
+  module:
+    - text
+id: field_collection_item.field_img_colection.field_description
+field_name: field_description
+entity_type: field_collection_item
+bundle: field_img_colection
+label: description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

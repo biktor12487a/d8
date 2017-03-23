@@ -1,0 +1,31 @@
+uuid: ff06735c-718b-4649-91e5-03c6bc43bbcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_img_colection.field_description
+    - field.field.field_collection_item.field_img_colection.field_img
+    - field_collection.field_collection.field_img_colection
+  module:
+    - image
+    - text
+id: field_collection_item.field_img_colection.default
+targetEntityType: field_collection_item
+bundle: field_img_colection
+mode: default
+content:
+  field_description:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_img:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden: {  }
